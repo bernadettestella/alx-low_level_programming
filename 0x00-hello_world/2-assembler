@@ -1,0 +1,2 @@
+#!/binbash
+gcc -c $CFILE -o $CFILE.s
