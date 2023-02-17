@@ -4,7 +4,7 @@
 
 /**
   * main - assigns a new number each time the variable is executed
-
+  *
   *Return: Always returns zero if successful
   */
 
