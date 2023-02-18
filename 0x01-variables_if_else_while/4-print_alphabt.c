@@ -9,8 +9,6 @@
 int main(void)
 {
 	char i;
-	char e;
-	char q;
 
 	for (i = 'a' ; i <= 'z' ; i++)
 		if (i != q && i != e)
