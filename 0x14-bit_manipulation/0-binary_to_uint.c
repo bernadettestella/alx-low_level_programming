@@ -22,13 +22,17 @@ unsigned int binary_to_uint(const char *b)
 		{
 			return (0);
 		}
+	}
 
-		j = j << 1;
+	for (j = 0; b[j] != '\0'; j++)
+	{
 
-		if (b[j] == '1')
-		{
+		f <<= 1;
+		
+		if (b[j] == 1)
+		
 			f += 1;
-		}
+
 	}
 
 	return (f);
